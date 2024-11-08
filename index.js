@@ -30,7 +30,7 @@ app.listen(process.env.PORT || 5000, async () => {
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
-const web_link = "https://girbocoin.netlify.app";
+const web_link = "https://girbocrypto.com/bot/";
 const community_link = "https://t.me/girbo_bot";
 
 bot.start((ctx) => {
